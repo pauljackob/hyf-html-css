@@ -1,0 +1,56 @@
+.first-class {
+    font-size:24px;
+    font-style:italic;
+    color:red;
+}
+.parent {
+    height: 400px;
+    width: 400px;
+    border: 4px yellow solid;
+    background-color: blue;
+    padding-top: 20px;
+    margin-top: 50px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    transition: 1s all ease-in-out;
+    cursor: pointer;
+
+}
+
+.parent:hover {
+    background-color: black;
+    height: 200px;
+    width:200px;
+}
+.child {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+ } 
+ 
+ .list {
+     list-style: none;
+     padding-left: 10px;
+ }
+
+ .image-container {
+     padding-top: 5%;
+     padding-bottom: 5%;
+     text-align: center;
+    
+ }
+
+ .image-container-link {
+     display: block;
+     text-align: center;
+     padding-top: 5px;
+ }
+
+ .input input{
+     display: block;
+ }
